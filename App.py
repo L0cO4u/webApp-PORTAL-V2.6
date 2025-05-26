@@ -14,6 +14,7 @@ app.secret_key = 'mysecretkey'
 
 @app.route('/')
 def Index():
+
     return render_template('index.html')
 
 @app.route('/contacts')
